@@ -1,0 +1,128 @@
+
+
+/***********
+ICO
+************/
+
+
+@font-face {
+	font-family: 'techno';
+	src:url('fonts/techno.eot?-exmysc');
+	src:url('fonts/techno.eot?#iefix-exmysc') format('embedded-opentype'),
+		url('fonts/techno.woff?-exmysc') format('woff'),
+		url('fonts/techno.ttf?-exmysc') format('truetype'),
+		url('fonts/techno.svg?-exmysc#techno') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="techno-"], [class*=" techno-"] {
+	font-family: 'techno';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.techno-angularjs:before {
+	content: "\e600";
+
+	color: #FFF;
+}
+.techno-backbone:before {content: "\e601"}
+.techno-codeigniter:before {content: "\e602"}
+.techno-coffeescript:before {content: "\e603"}
+.techno-compass:before {content: "\e604"}
+.techno-css:before {content: "\e605"}
+.techno-debian:before {content: "\e606"}
+.techno-django:before {content: "\e607"}
+.techno-git:before {content: "\e608"}
+.techno-github:before {content: "\e609"}
+.techno-heroku:before {content: "\e60a"}
+.techno-html5:before {content: "\e60b"}
+.techno-illustrator:before {content: "\e60c";}
+.techno-indesign:before {content: "\e60d";}
+.techno-java:before {content: "\e60e";}
+.techno-javascript:before {content: "\e60f";}
+.techno-jquery:before {content: "\e610";}
+.techno-laravel:before {content: "\e611";}
+.techno-magento:before {content: "\e612";}
+.techno-mongodb:before {content: "\e613";}
+.techno-mysql:before {content: "\e614";}
+.techno-nodejs:before {content: "\e615";}
+.techno-photoshop:before {content: "\e616";}
+.techno-php:before {content: "\e617";}
+.techno-python:before {content: "\e618";}
+.techno-rails:before {content: "\e619";}
+.techno-raspberry:before {content: "\e61a";}
+.techno-redis:before {content: "\e61b";}
+.techno-ruby:before {content: "\e61c";}
+.techno-sinatra:before {content: "\e61d";}
+.techno-symfony:before {content: "\e61e";}
+.techno-Ubuntu:before {content: "\e61f";}
+.techno-visual_studio:before {content: "\e620";}
+.techno-zf:before {content: "\e621";}
+
+/**********
+END ICO
+***********/
+
+
+button{
+	font-family: arial;
+	border-radius: 4px;
+	padding: 5px;
+	color:#FFF;
+	margin: 5px;
+	cursor: pointer;
+}
+
+button.small{font-size: 0.9em;}
+button.medium{font-size: 1.2em;}
+
+
+
+button.angular, button.rails, button.compass{
+	border: 1px solid #A50000;
+	background-color: #E53939;
+}
+button.angular:hover, button.rails:hover, button.compass:hover{background-color: #A50000;}
+
+button.coffee{
+	border: 1px solid #464663;
+	background-color: #191932;
+}
+button.coffee:hover{background-color: #464663;}
+
+button.ci, button.git{
+	border: 1px solid #C12D00;
+	background-color: #FF3C00;
+}
+button.ci:hover, button.git:hover{background-color: #C12D00;}
+
+button.backbone, button.css{
+	border: 1px solid #002A41;
+	background-color: #0071B5;
+}
+button.backbone:hover, button.css:hover{background-color: #002A41;}
+
+button.debian{
+	border: 1px solid #910032;
+	background-color: #D70751;
+}
+button.debian:hover{background-color: #910032;}
+
+button.django{
+	border: 1px solid #092E20;
+	background-color: #41663F;
+}
+button.django:hover{background-color: #092E20;}
+
+
+
